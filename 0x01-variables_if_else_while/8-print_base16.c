@@ -1,21 +1,28 @@
 #include <stdio.h>
 /**
-* main -Entry Hex
-* Return: always 0 (success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	int a;
+	int c;
 
-	for (a = 0; a < 10; a++)
-	{
-		putchar(a + '0');
-		if (a < 9)
-		{
-			putchar(',');
-			putchar(' ');
+	int d;
+
+	c = 'a';
+	d = 0;
+	while
+		(d < 10) {
+			putchar(d + '0');
+			d++;
 		}
-	}
+	while
+		(c <= 'f') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
