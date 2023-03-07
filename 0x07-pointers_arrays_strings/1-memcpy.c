@@ -17,3 +17,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		/* destination[index] = source[index]; */
 		dest[index] = src[index];
 	return (dest);
+}
+
